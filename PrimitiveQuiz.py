@@ -6,7 +6,7 @@ if answer == "Paris":
 else:
     print("Wrong!")
 
-# advanced requirement
+# advanced requirement ignores capitalization
 questions = {
     "France": "paris",
     "Germany": "berlin",
