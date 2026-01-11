@@ -4,7 +4,7 @@ answer = input("What is the capital of France? ")
 if answer == "Paris":
     print("Correct!")
 else:
-    print("Wrong!")
+    print("Wrong! The capital of France is Paris.")
 
 # advanced requirement ignores capitalization
 questions = {
@@ -26,4 +26,4 @@ for country, capital in questions.items():
     if answer == capital:
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! Please study Geograpy.")
